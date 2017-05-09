@@ -18,5 +18,7 @@
 ###### removes all items
 9. toString()
 ###### prints the cart items and total
+10. productChecker(product) 
+###### to validate that the input product is type of product and the attributes types are correct
 
-##### To run type : node Cart.test.js
+## To run type : node Cart.test.js
