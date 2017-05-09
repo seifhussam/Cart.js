@@ -24,6 +24,8 @@ c.addItem(product2);
 assert.equal(c.items.length,2 , 'The number of items is not updated correctly');
 // getTotal
 console.log('Cart Total : '+c.getTotal()+ ' $');
+//print the cart before clearing
+console.log(c.toString());
 // clear the cart
 c.clearCart();
 // check on Cart

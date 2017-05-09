@@ -105,11 +105,14 @@ Cart.prototype.removeProduct = function(product) {
 Cart.prototype.toString = function CarttoString() {
   if (this.items.length ===0)
   return 'Empty Cart';
-  var res = ' My Cart : \n';
+  var res = ' My Cart  \n';
+  res+= '==========================\n';
 for (var i = 0; i < this.items.length; i++) {
-  res += this.items[i].toString()+'\n';
+  res += ' - ' +this.items[i].toString()+'\n';
 }
-res +=' Cart Total : '+this.getTotal() + ' $';
+  res+= '=============\n';
+res +=' Cart Total : '+this.getTotal() + ' $\n';
+  res+= '==========================';
 return res ;
 };
 
