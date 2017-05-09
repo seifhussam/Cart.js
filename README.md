@@ -18,3 +18,5 @@
 ###### removes all items
 9. toString()
 ###### prints the cart items and total
+
+##### To run type : node Cart.test.js
